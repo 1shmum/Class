@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+class student
+{
+    string name,id,sec;
+public:
+    student(string a,string b,string c)
+    {
+        name=a;
+        id=b;
+        sec=c;
+        //cout<<"Name = "<<name<<"ID = "<<id<<"Sec = "<<sec<<endl;
+    }
+    void show()
+    {
+        cout<<"Name = "<<name<<endl<<"ID = "<<id<<endl<<"Sec = "<<sec<<endl;
+    }
+};
+int main ()
+{
+    string a,b,c;
+    cin>>a>>b>>c;
+    student me(a,b,c);
+    me.show();
+    return 0;
+}
