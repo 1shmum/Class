@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+class newspaper{
+    int number;
+public:
+    newspaper(int n)
+    {
+
+       if(n<=5000)
+       {
+           number=n;
+            cout<<"accepted newspaper"<<endl<<number<<endl;
+       }
+       else
+        cout<<"not accepted"<<endl;
+    }
+};
+int main ()
+{
+    int number;
+    cin>>number;
+    newspaper obj(number);
+    //obj.editor(number);
+
+     return 0;
+}
